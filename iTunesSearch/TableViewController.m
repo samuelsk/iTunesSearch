@@ -26,12 +26,10 @@
     
     UINib *nib = [UINib nibWithNibName:@"TableViewCell" bundle:nil];
     [self.tableview registerNib:nib forCellReuseIdentifier:@"celulaPadrao"];
-    
-    iTunesManager *itunes = [iTunesManager sharedInstance];
-    midias = [itunes buscarMidias:@"Apple"];
+    self.textfield.delegate = self;
     
 #warning Necessario para que a table view tenha um espaco em relacao ao topo, pois caso contrario o texto ficara atras da barra superior
-    self.tableview.tableHeaderView = [[UIView alloc] initWithFrame:CGRectMake(0.0f, 0.0f, self.tableview.bounds.size.width, 15.f)];
+    self.tableview.tableHeaderView = [[UIView alloc] initWithFrame:CGRectMake(0.0f, 0.0f, self.tableview.bounds.size.width, 0.f)];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -56,12 +54,33 @@
     
     [celula.nome setText:filme.nome];
     [celula.tipo setText:@"Filme"];
+    [celula.genero setText:filme.genero];
+    [celula.artista setText:filme.artista];
     
     return celula;
 }
 
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    return 70;
+    return 90;
+}
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+    if (textField == self.textfield) {
+        [self buscar:self];
+        return NO;
+    }
+    return YES;
+}
+
+- (IBAction)buscar:(id)sender {
+    iTunesManager *itunes = [iTunesManager sharedInstance];
+    NSString *termo = [NSString stringWithFormat:@"%@", _textfield.text];
+    midias = [itunes buscarMidias:[termo stringByReplacingOccurrencesOfString:@" " withString:@"+"]];
+    [self.tableview reloadData];
+    [_textfield resignFirstResponder];
+}
+
+- (IBAction)segmentControl:(id)sender {
 }
 
 
