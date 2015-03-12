@@ -11,10 +11,14 @@
 @interface TableViewController : UIViewController <UITableViewDataSource, UITableViewDelegate, UITextFieldDelegate>
 
 
-@property (strong, nonatomic) IBOutlet UITableView *tableview;
-@property (weak, nonatomic) IBOutlet UITextField *textfield;
+@property (strong, nonatomic) IBOutlet UITableView *tableView;
+@property (weak, nonatomic) IBOutlet UITextField *textField;
+@property (weak, nonatomic) IBOutlet UISegmentedControl *segmentControl;
+@property (weak, nonatomic) IBOutlet UINavigationBar *navigationBar;
+@property (weak, nonatomic) IBOutlet UITabBar *tabBar;
 
-- (IBAction)buscar:(id)sender;
+
+- (IBAction)segmentChanged:(id)sender;
 
 @end
 

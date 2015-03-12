@@ -1,5 +1,5 @@
 //
-//  Musica.h
+//  Podcast.h
 //  iTunesSearch
 //
 //  Created by Samuel Shin Kim on 10/03/15.
@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Musica : NSObject
+@interface Podcast : NSObject
 
 @property (nonatomic, strong) NSString *nome;
 

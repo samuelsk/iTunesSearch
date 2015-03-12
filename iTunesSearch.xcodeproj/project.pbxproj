@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7EA4A8061AAF8F9D00AE7406 /* Musica.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA4A8051AAF8F9D00AE7406 /* Musica.m */; };
-		7EA4A8091AAF8FB200AE7406 /* Podcast.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA4A8081AAF8FB200AE7406 /* Podcast.m */; };
-		7EA4A80C1AAF8FBD00AE7406 /* eBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA4A80B1AAF8FBD00AE7406 /* eBook.m */; };
+		7EAFE69D1AB0C03B0084D30B /* eBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAFE6981AB0C03B0084D30B /* eBook.m */; };
+		7EAFE69E1AB0C03B0084D30B /* Musica.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAFE69A1AB0C03B0084D30B /* Musica.m */; };
+		7EAFE69F1AB0C03B0084D30B /* Podcast.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAFE69C1AB0C03B0084D30B /* Podcast.m */; };
 		92C21CB61AAE757A0052ABE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C21CB51AAE757A0052ABE6 /* main.m */; };
 		92C21CB91AAE757A0052ABE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C21CB81AAE757A0052ABE6 /* AppDelegate.m */; };
 		92C21CBC1AAE757A0052ABE6 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C21CBB1AAE757A0052ABE6 /* TableViewController.m */; };
@@ -33,12 +33,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7EA4A8041AAF8F9D00AE7406 /* Musica.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Musica.h; sourceTree = "<group>"; };
-		7EA4A8051AAF8F9D00AE7406 /* Musica.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Musica.m; sourceTree = "<group>"; };
-		7EA4A8071AAF8FB200AE7406 /* Podcast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Podcast.h; sourceTree = "<group>"; };
-		7EA4A8081AAF8FB200AE7406 /* Podcast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Podcast.m; sourceTree = "<group>"; };
-		7EA4A80A1AAF8FBD00AE7406 /* eBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eBook.h; sourceTree = "<group>"; };
-		7EA4A80B1AAF8FBD00AE7406 /* eBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = eBook.m; sourceTree = "<group>"; };
+		7EAFE6971AB0C03B0084D30B /* eBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = eBook.h; path = Entidades/eBook.h; sourceTree = "<group>"; };
+		7EAFE6981AB0C03B0084D30B /* eBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = eBook.m; path = Entidades/eBook.m; sourceTree = "<group>"; };
+		7EAFE6991AB0C03B0084D30B /* Musica.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Musica.h; path = Entidades/Musica.h; sourceTree = "<group>"; };
+		7EAFE69A1AB0C03B0084D30B /* Musica.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Musica.m; path = Entidades/Musica.m; sourceTree = "<group>"; };
+		7EAFE69B1AB0C03B0084D30B /* Podcast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Podcast.h; path = Entidades/Podcast.h; sourceTree = "<group>"; };
+		7EAFE69C1AB0C03B0084D30B /* Podcast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Podcast.m; path = Entidades/Podcast.m; sourceTree = "<group>"; };
 		92C21CB01AAE757A0052ABE6 /* iTunesSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTunesSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92C21CB41AAE757A0052ABE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92C21CB51AAE757A0052ABE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -155,12 +155,12 @@
 			children = (
 				92C21CE61AAE858E0052ABE6 /* Filme.h */,
 				92C21CE71AAE858E0052ABE6 /* Filme.m */,
-				7EA4A8041AAF8F9D00AE7406 /* Musica.h */,
-				7EA4A8051AAF8F9D00AE7406 /* Musica.m */,
-				7EA4A8071AAF8FB200AE7406 /* Podcast.h */,
-				7EA4A8081AAF8FB200AE7406 /* Podcast.m */,
-				7EA4A80A1AAF8FBD00AE7406 /* eBook.h */,
-				7EA4A80B1AAF8FBD00AE7406 /* eBook.m */,
+				7EAFE6991AB0C03B0084D30B /* Musica.h */,
+				7EAFE69A1AB0C03B0084D30B /* Musica.m */,
+				7EAFE69B1AB0C03B0084D30B /* Podcast.h */,
+				7EAFE69C1AB0C03B0084D30B /* Podcast.m */,
+				7EAFE6971AB0C03B0084D30B /* eBook.h */,
+				7EAFE6981AB0C03B0084D30B /* eBook.m */,
 			);
 			name = Entidades;
 			sourceTree = "<group>";
@@ -266,12 +266,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				92C21CBC1AAE757A0052ABE6 /* TableViewController.m in Sources */,
-				7EA4A8061AAF8F9D00AE7406 /* Musica.m in Sources */,
-				7EA4A8091AAF8FB200AE7406 /* Podcast.m in Sources */,
-				7EA4A80C1AAF8FBD00AE7406 /* eBook.m in Sources */,
 				92C21CDB1AAE75B30052ABE6 /* iTunesManager.m in Sources */,
 				92C21CB91AAE757A0052ABE6 /* AppDelegate.m in Sources */,
+				7EAFE69F1AB0C03B0084D30B /* Podcast.m in Sources */,
+				7EAFE69D1AB0C03B0084D30B /* eBook.m in Sources */,
 				92C21CE81AAE858E0052ABE6 /* Filme.m in Sources */,
+				7EAFE69E1AB0C03B0084D30B /* Musica.m in Sources */,
 				92C21CE11AAE76930052ABE6 /* TableViewCell.m in Sources */,
 				92C21CB61AAE757A0052ABE6 /* main.m in Sources */,
 			);
