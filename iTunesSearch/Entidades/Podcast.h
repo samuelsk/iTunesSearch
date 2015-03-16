@@ -7,9 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Midia.h"
 
-@interface Podcast : NSObject
+@interface Podcast : Midia
 
-@property (nonatomic, strong) NSString *nome;
+@property (nonatomic, strong) NSArray *generos;
+
+- (instancetype)initWithDictionary:(NSDictionary *)dictionary;
 
 @end

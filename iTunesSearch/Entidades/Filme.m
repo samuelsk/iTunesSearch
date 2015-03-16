@@ -10,4 +10,15 @@
 
 @implementation Filme
 
+- (instancetype)initWithDictionary:(NSDictionary *)dictionary {
+    self = [super initWithDictionary:dictionary];
+    if (self ) {
+        [self setDescricao:[dictionary objectForKey:@"longDescription"]];
+        [self setClassIndic:[dictionary objectForKey:@"contentAdvisoryRating"]];
+        [self setPrecoHD:[dictionary objectForKey:@"trackHDPrice"]];
+        [self setDuracao:[dictionary objectForKey:@"trackTimeMillis"]];
+    }
+    return self;
+}
+
 @end

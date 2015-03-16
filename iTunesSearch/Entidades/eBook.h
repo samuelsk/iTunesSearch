@@ -7,9 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Midia.h"
 
-@interface eBook : NSObject
+@interface eBook : Midia
 
-@property (nonatomic, strong) NSString *nome;
+@property (nonatomic, strong) NSString *descricao;
+@property (nonatomic, strong) NSString *avaliacao;
+@property (nonatomic, strong) NSArray *generos;
+
+- (instancetype)initWithDictionary:(NSDictionary *)dictionary;
 
 @end

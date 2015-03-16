@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E5495A71AB68573005C24A9 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E54959E1AB68573005C24A9 /* DetailsViewController.m */; };
+		7E5495A81AB68573005C24A9 /* DetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E54959F1AB68573005C24A9 /* DetailsViewController.xib */; };
+		7E5495A91AB68573005C24A9 /* HistoricoViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5495A11AB68573005C24A9 /* HistoricoViewCell.m */; };
+		7E5495AA1AB68573005C24A9 /* HistoricoViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E5495A21AB68573005C24A9 /* HistoricoViewCell.xib */; };
+		7E5495AB1AB68573005C24A9 /* HistoricoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5495A41AB68573005C24A9 /* HistoricoViewController.m */; };
+		7E5495AC1AB68573005C24A9 /* HistoricoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E5495A51AB68573005C24A9 /* HistoricoViewController.xib */; };
+		7E5495AD1AB68573005C24A9 /* MidiaIcon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E5495A61AB68573005C24A9 /* MidiaIcon.xcassets */; };
+		7E5495B11AB685C1005C24A9 /* Midia.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5495B01AB685C1005C24A9 /* Midia.m */; };
+		7E5495B41AB68700005C24A9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E5495B61AB68700005C24A9 /* Localizable.strings */; };
 		7EAFE69D1AB0C03B0084D30B /* eBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAFE6981AB0C03B0084D30B /* eBook.m */; };
 		7EAFE69E1AB0C03B0084D30B /* Musica.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAFE69A1AB0C03B0084D30B /* Musica.m */; };
 		7EAFE69F1AB0C03B0084D30B /* Podcast.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAFE69C1AB0C03B0084D30B /* Podcast.m */; };
@@ -33,6 +42,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7E54959D1AB68573005C24A9 /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		7E54959E1AB68573005C24A9 /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
+		7E54959F1AB68573005C24A9 /* DetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailsViewController.xib; sourceTree = "<group>"; };
+		7E5495A01AB68573005C24A9 /* HistoricoViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoricoViewCell.h; sourceTree = "<group>"; };
+		7E5495A11AB68573005C24A9 /* HistoricoViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoricoViewCell.m; sourceTree = "<group>"; };
+		7E5495A21AB68573005C24A9 /* HistoricoViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HistoricoViewCell.xib; sourceTree = "<group>"; };
+		7E5495A31AB68573005C24A9 /* HistoricoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoricoViewController.h; sourceTree = "<group>"; };
+		7E5495A41AB68573005C24A9 /* HistoricoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoricoViewController.m; sourceTree = "<group>"; };
+		7E5495A51AB68573005C24A9 /* HistoricoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HistoricoViewController.xib; sourceTree = "<group>"; };
+		7E5495A61AB68573005C24A9 /* MidiaIcon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MidiaIcon.xcassets; sourceTree = "<group>"; };
+		7E5495AF1AB685C1005C24A9 /* Midia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Midia.h; path = Entidades/Midia.h; sourceTree = "<group>"; };
+		7E5495B01AB685C1005C24A9 /* Midia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Midia.m; path = Entidades/Midia.m; sourceTree = "<group>"; };
+		7E5495B51AB68700005C24A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7E5495B81AB6870C005C24A9 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7E5495B91AB68715005C24A9 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7E5495BA1AB6873F005C24A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		7EAFE6971AB0C03B0084D30B /* eBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = eBook.h; path = Entidades/eBook.h; sourceTree = "<group>"; };
 		7EAFE6981AB0C03B0084D30B /* eBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = eBook.m; path = Entidades/eBook.m; sourceTree = "<group>"; };
 		7EAFE6991AB0C03B0084D30B /* Musica.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Musica.h; path = Entidades/Musica.h; sourceTree = "<group>"; };
@@ -78,6 +103,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E5495AE1AB68592005C24A9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				92C21CBA1AAE757A0052ABE6 /* TableViewController.h */,
+				92C21CBB1AAE757A0052ABE6 /* TableViewController.m */,
+				92C21CDC1AAE75DC0052ABE6 /* TableView.xib */,
+				7E54959D1AB68573005C24A9 /* DetailsViewController.h */,
+				7E54959E1AB68573005C24A9 /* DetailsViewController.m */,
+				7E54959F1AB68573005C24A9 /* DetailsViewController.xib */,
+				7E5495A31AB68573005C24A9 /* HistoricoViewController.h */,
+				7E5495A41AB68573005C24A9 /* HistoricoViewController.m */,
+				7E5495A51AB68573005C24A9 /* HistoricoViewController.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		92C21CA71AAE757A0052ABE6 = {
 			isa = PBXGroup;
 			children = (
@@ -101,14 +142,13 @@
 			children = (
 				92C21CE31AAE76AA0052ABE6 /* Celulas */,
 				92C21CE91AAE859A0052ABE6 /* Entidades */,
+				7E5495AE1AB68592005C24A9 /* Views */,
 				92C21CB71AAE757A0052ABE6 /* AppDelegate.h */,
 				92C21CB81AAE757A0052ABE6 /* AppDelegate.m */,
-				92C21CBA1AAE757A0052ABE6 /* TableViewController.h */,
-				92C21CBB1AAE757A0052ABE6 /* TableViewController.m */,
-				92C21CDC1AAE75DC0052ABE6 /* TableView.xib */,
 				92C21CD91AAE75B30052ABE6 /* iTunesManager.h */,
 				92C21CDA1AAE75B30052ABE6 /* iTunesManager.m */,
 				92C21CC01AAE757A0052ABE6 /* Images.xcassets */,
+				7E5495A61AB68573005C24A9 /* MidiaIcon.xcassets */,
 				92C21CB31AAE757A0052ABE6 /* Supporting Files */,
 			);
 			path = iTunesSearch;
@@ -119,6 +159,7 @@
 			children = (
 				92C21CB41AAE757A0052ABE6 /* Info.plist */,
 				92C21CB51AAE757A0052ABE6 /* main.m */,
+				7E5495B61AB68700005C24A9 /* Localizable.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -146,6 +187,9 @@
 				92C21CDE1AAE76930052ABE6 /* TableViewCell.h */,
 				92C21CDF1AAE76930052ABE6 /* TableViewCell.m */,
 				92C21CE01AAE76930052ABE6 /* TableViewCell.xib */,
+				7E5495A01AB68573005C24A9 /* HistoricoViewCell.h */,
+				7E5495A11AB68573005C24A9 /* HistoricoViewCell.m */,
+				7E5495A21AB68573005C24A9 /* HistoricoViewCell.xib */,
 			);
 			name = Celulas;
 			sourceTree = "<group>";
@@ -153,6 +197,8 @@
 		92C21CE91AAE859A0052ABE6 /* Entidades */ = {
 			isa = PBXGroup;
 			children = (
+				7E5495AF1AB685C1005C24A9 /* Midia.h */,
+				7E5495B01AB685C1005C24A9 /* Midia.m */,
 				92C21CE61AAE858E0052ABE6 /* Filme.h */,
 				92C21CE71AAE858E0052ABE6 /* Filme.m */,
 				7EAFE6991AB0C03B0084D30B /* Musica.h */,
@@ -228,6 +274,8 @@
 			knownRegions = (
 				en,
 				Base,
+				pt,
+				fr,
 			);
 			mainGroup = 92C21CA71AAE757A0052ABE6;
 			productRefGroup = 92C21CB11AAE757A0052ABE6 /* Products */;
@@ -246,8 +294,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				92C21CC11AAE757A0052ABE6 /* Images.xcassets in Resources */,
+				7E5495AD1AB68573005C24A9 /* MidiaIcon.xcassets in Resources */,
+				7E5495AC1AB68573005C24A9 /* HistoricoViewController.xib in Resources */,
+				7E5495AA1AB68573005C24A9 /* HistoricoViewCell.xib in Resources */,
 				92C21CE21AAE76930052ABE6 /* TableViewCell.xib in Resources */,
+				7E5495B41AB68700005C24A9 /* Localizable.strings in Resources */,
 				92C21CDD1AAE75DC0052ABE6 /* TableView.xib in Resources */,
+				7E5495A81AB68573005C24A9 /* DetailsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,14 +319,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				92C21CBC1AAE757A0052ABE6 /* TableViewController.m in Sources */,
+				7E5495A71AB68573005C24A9 /* DetailsViewController.m in Sources */,
 				92C21CDB1AAE75B30052ABE6 /* iTunesManager.m in Sources */,
 				92C21CB91AAE757A0052ABE6 /* AppDelegate.m in Sources */,
+				7E5495A91AB68573005C24A9 /* HistoricoViewCell.m in Sources */,
 				7EAFE69F1AB0C03B0084D30B /* Podcast.m in Sources */,
 				7EAFE69D1AB0C03B0084D30B /* eBook.m in Sources */,
 				92C21CE81AAE858E0052ABE6 /* Filme.m in Sources */,
+				7E5495B11AB685C1005C24A9 /* Midia.m in Sources */,
 				7EAFE69E1AB0C03B0084D30B /* Musica.m in Sources */,
 				92C21CE11AAE76930052ABE6 /* TableViewCell.m in Sources */,
 				92C21CB61AAE757A0052ABE6 /* main.m in Sources */,
+				7E5495AB1AB68573005C24A9 /* HistoricoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +351,20 @@
 			targetProxy = 92C21CCA1AAE757A0052ABE6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E5495B61AB68700005C24A9 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E5495B51AB68700005C24A9 /* Base */,
+				7E5495B81AB6870C005C24A9 /* pt */,
+				7E5495B91AB68715005C24A9 /* fr */,
+				7E5495BA1AB6873F005C24A9 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		92C21CD11AAE757A0052ABE6 /* Debug */ = {

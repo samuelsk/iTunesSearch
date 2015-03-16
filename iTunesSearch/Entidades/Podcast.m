@@ -10,4 +10,12 @@
 
 @implementation Podcast
 
+- (instancetype)initWithDictionary:(NSDictionary *)dictionary {
+    self = [super initWithDictionary:dictionary];
+    if (self) {
+        [self setGeneros:[dictionary objectForKey:@"genres"]];
+    }
+    return self;
+}
+
 @end

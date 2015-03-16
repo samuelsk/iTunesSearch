@@ -10,4 +10,14 @@
 
 @implementation eBook
 
+- (instancetype)initWithDictionary:(NSDictionary *)dictionary {
+    self = [super initWithDictionary:dictionary];
+    if (self) {
+        [self setDescricao:[dictionary objectForKey:@"description"]];
+        [self setAvaliacao:[dictionary objectForKey:@"averageUserRating"]];
+        [self setGeneros:[dictionary objectForKey:@"genres"]];
+    }
+    return self;
+}
+
 @end

@@ -55,35 +55,21 @@ static bool isFirstAccess = YES;
     
     for (NSDictionary *item in resultados) {
         if ([[item objectForKey:@"kind"] isEqualToString:@"feature-movie"]) {
-            Filme *filme = [[Filme alloc] init];
-            [filme setNome:[item objectForKey:@"trackName"]];
-            [filme setTrackId:[item objectForKey:@"trackId"]];
-            [filme setArtista:[item objectForKey:@"artistName"]];
-            [filme setDuracao:[item objectForKey:@"trackTimeMillis"]];
-            [filme setGenero:[item objectForKey:@"primaryGenreName"]];
-            [filme setPais:[item objectForKey:@"country"]];
+            Filme *filme = [[Filme alloc] initWithDictionary:item];
             [[midias objectAtIndex:0] addObject:filme];
         } else if ([[item objectForKey:@"kind"] isEqualToString:@"song"]) {
-            Musica *musica = [[Musica alloc] init];
-            [musica setNome:[item objectForKey:@"trackName"]];
-            
+            Musica *musica = [[Musica alloc] initWithDictionary:item];
             [[midias objectAtIndex:1] addObject:musica];
         } else if ([[item objectForKey:@"kind"] isEqualToString:@"podcast"]) {
-            Podcast *podcast = [[Podcast alloc] init];
-            [podcast setNome:[item objectForKey:@"trackName"]];
-            
+            Podcast *podcast = [[Podcast alloc] initWithDictionary:item];
             [[midias objectAtIndex:2] addObject:podcast];
         } else if ([[item objectForKey:@"kind"] isEqualToString:@"ebook"]) {
-            eBook *ebook = [[eBook alloc] init];
-            [ebook setNome:[item objectForKey:@"trackName"]];
-            
+            eBook *ebook = [[eBook alloc] initWithDictionary:item];
             [[midias objectAtIndex:3] addObject:ebook];
         }
     }
     return midias;
 }
-
-
 
 
 #pragma mark - Life Cycle

@@ -7,14 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Midia.h"
 
-@interface Filme : NSObject
+@interface Filme : Midia
 
-@property (nonatomic, strong) NSString *nome;
-@property (nonatomic, strong) NSString *trackId;
-@property (nonatomic, strong) NSString *artista;
+@property (nonatomic, strong) NSString *descricao;
+@property (nonatomic, strong) NSString *classIndic;
+@property (nonatomic, strong) NSString *precoHD;
 @property (nonatomic, strong) NSString *duracao;
-@property (nonatomic, strong) NSString *genero;
-@property (nonatomic, strong) NSString *pais;
+
+- (instancetype)initWithDictionary:(NSDictionary *)dictionary;
 
 @end

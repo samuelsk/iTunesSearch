@@ -10,4 +10,15 @@
 
 @implementation Musica
 
+- (instancetype)initWithDictionary:(NSDictionary *)dictionary {
+    self = [super initWithDictionary:dictionary];
+    if (self) {
+        [self setAlbum:[dictionary objectForKey:@"collectionName"]];
+        [self setCollectionId:[dictionary objectForKey:@"collectionId"]];
+        [self setPrecoAlbum:[dictionary objectForKey:@"collectionPrice"]];
+        [self setDuracao:[dictionary objectForKey:@"trackTimeMillis"]];
+    }
+    return self;
+}
+
 @end

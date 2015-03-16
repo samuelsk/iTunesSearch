@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1510" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="56" id="Udb-My-XJT" customClass="HistoricoViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="56"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Udb-My-XJT" id="3Ib-xx-Rq4">
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="termo" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oQN-XL-gFK">
+                        <rect key="frame" x="22" y="17" width="251" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="oQN-XL-gFK" secondAttribute="trailing" constant="39" id="6Kh-yZ-esL"/>
+                    <constraint firstItem="oQN-XL-gFK" firstAttribute="top" secondItem="3Ib-xx-Rq4" secondAttribute="topMargin" constant="9" id="Bsf-rp-3vU"/>
+                    <constraint firstItem="oQN-XL-gFK" firstAttribute="centerY" secondItem="3Ib-xx-Rq4" secondAttribute="centerY" id="Sp5-al-Wwm"/>
+                    <constraint firstItem="oQN-XL-gFK" firstAttribute="leading" secondItem="3Ib-xx-Rq4" secondAttribute="leadingMargin" constant="14" id="bGY-vb-9pJ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="termo" destination="oQN-XL-gFK" id="WPX-EQ-BWP"/>
+            </connections>
+            <point key="canvasLocation" x="457" y="101"/>
+        </tableViewCell>
+    </objects>
+</document>

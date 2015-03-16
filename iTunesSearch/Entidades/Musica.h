@@ -7,14 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Midia.h"
 
-@interface Musica : NSObject
+@interface Musica : Midia
 
-@property (nonatomic, strong) NSString *nome;
-@property (nonatomic, strong) NSString *trackId;
-@property (nonatomic, strong) NSString *artista;
+@property (nonatomic, strong) NSString *album;
+@property (nonatomic, strong) NSString *collectionId;
+@property (nonatomic, strong) NSString *precoAlbum;
 @property (nonatomic, strong) NSString *duracao;
-@property (nonatomic, strong) NSString *genero;
-@property (nonatomic, strong) NSString *pais;
+
+- (instancetype)initWithDictionary:(NSDictionary *)dictionary;
 
 @end
